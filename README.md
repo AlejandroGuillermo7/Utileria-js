@@ -1,15 +1,16 @@
-<p align="center">
-<h1>Instituto Tecnológico Nacional de México</h1>
-<h3>Instituto Tecnológico de Oaxaca</h3>
-<br>
-<strong>Carrera:</strong> Ingeniería en Sistemas Computacionales<br>
-<strong>Materia:</strong> Programación Web<br>
-<strong>Unidad:</strong> Unidad 2<br>
-<strong>Docente:</strong> Adelina Martínez Nieto<br>
-<strong>Alumno:</strong> Enríquez Rodríguez Alejandro Guillermo<br>
-<strong>Fecha de entrega:</strong> 04 de julio del 2026<br>
-</p>
+<div align="center">
 
+# Instituto Tecnológico Nacional de México
+### Instituto Tecnológico de Oaxaca
+
+**Carrera:** Ingeniería en Sistemas Computacionales<br>
+**Materia:** Programación Web<br>
+**Unidad:** Unidad 2<br>
+**Docente:** Adelina Martínez Nieto<br>
+**Alumno:** Enríquez Rodríguez Alejandro Guillermo<br>
+**Fecha de entrega:** 04 de julio del 2026
+
+</div>
 ---
 
 # Utilería.js — Validaciones y Cálculos para Formularios Web
