@@ -3,12 +3,12 @@
 # Instituto Tecnológico Nacional de México
 ### Instituto Tecnológico de Oaxaca
 
-**Carrera:** Ingeniería en Sistemas Computacionales<br>
-**Materia:** Programación Web<br>
-**Unidad:** Unidad 2<br>
-**Docente:** Adelina Martínez Nieto<br>
-**Alumno:** Enríquez Rodríguez Alejandro Guillermo<br>
-**Fecha de entrega:** 04 de julio del 2026
+**Carrera:** Ingeniería en Sistemas Computacionales<br><br><br><br>
+**Materia:** Programación Web<br><br><br><br>
+**Unidad:** Unidad 2<br><br><br><br>
+**Docente:** Adelina Martínez Nieto<br><br><br><br>
+**Alumno:** Enríquez Rodríguez Alejandro Guillermo<br><br><br><br><br>
+**Fecha de entrega:** 04 de julio del 2026<br><br><br><br>
 
 </div>
 ---
