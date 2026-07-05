@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" type="image/png" href="img/favicon.png">
+</head>
+<body>
+    <div class="caja">
+        <form>
+            <img src="img/robot.png" alt="Robot" class="icono-robot">
+            <h2>Iniciar Sesión</h2>
+            <label for="usuario">Usuario (correo)</label>
+            <input type="text" id="usuario" name="usuario" placeholder="Ingresa tu correo">
+            <span class="emergent-label" id="correo-label">Correo no válido!</span>
+
+            <label for="password">Contraseña</label>
+            <input type="password" id="password" name="password" placeholder="******"
+                title="Debe tener al menos una mayúscula, una minúscula, un número, un carácter especial y una longitud mínima de 8 caracteres">
+            <span class="emergent-label" id="password-label">Contraseña no válida!</span>
+
+            <button type="button" class="boton_iniciar" id="botonIniciar">Iniciar</button>
+            <p class="badge-exito" id="badgeExito">
+                Inicio de sesión válido
+            </p>
+        </form>
+        <a href="index.html" class="link">Regresar</a>
+    </div>
+
+    <script src="js/utileria.js"></script>
+    <script src="js/login.js"></script>
+</body>
+</html>

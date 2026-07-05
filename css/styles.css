@@ -1,0 +1,205 @@
+:root {
+    --color-fondo: #fdfae8;       
+    --color-superficie: #FFFFFF;  
+    --color-texto-principal: #1E2229;
+    --color-texto-secundario: #64748B;
+    --color-primario: #5d5d66;    
+    --color-primario-hover: #007EA7; 
+    --color-borde: #E2E8F0;       
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: var(--color-fondo);
+    color: var(--color-texto-principal);
+    line-height: 1.6;
+    padding: 40px 20px;
+}
+
+.contenedor_datos_personales,
+.contenedor_salud_finanzas,
+.resultados {
+    max-width: 600px;
+    margin: 0 auto 30px auto;
+    background: white;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 5px 5px rgba(3, 31, 63, 0.3);
+}
+
+h1 {
+    font-size: 28px;
+    color: var(--color-primario);
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+p {
+    font-size: 20px;
+    color: var(--color-primario);
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 600;
+    color: var(--color-texto-principal);
+}
+
+input {
+    width: 100%;
+    padding: 14px 18px;
+    border: 1px solid var(--color-borde);
+    border-radius: 8px;
+    color: var(--color-texto-principal);
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    margin-bottom: 8px;
+    transition: all 0.3s;
+}
+
+input:focus {
+    border-color: var(--color-primario-hover);
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(0, 126, 167, 0.2);
+}
+
+.error {
+    display: block;
+    color: #d32f2f;
+    font-size: 14px;
+    margin-bottom: 14px;
+    min-height: 18px;
+}
+
+.boton_enviar {
+    background-color: #2495d6;
+    color: white;
+    border: none;
+    padding: 14px 24px;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    margin: 0 auto 18px auto;
+    transition: background 0.3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    max-width: 200px;
+}
+
+.boton_enviar:hover {
+    background-color: #ff0000;
+}
+
+.link-primary {
+    color: white;
+    text-decoration: none;
+}
+
+.caja {
+    max-width: 400px;
+    margin: 60px auto;
+    background: white;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 5px 5px rgba(3, 31, 63, 0.3);
+    text-align: center;
+}
+
+.caja h2 {
+    color: var(--color-primario);
+    margin-bottom: 20px;
+}
+
+.caja label {
+    text-align: left;
+}
+
+.emergent-label {
+    display: none;
+    color: #d32f2f;
+    font-size: 14px;
+    margin-bottom: 14px;
+    text-align: left;
+}
+
+.badge-exito {
+    display: none;
+    background-color: #2e7d32;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.badge-exito.activo {
+    display: block;
+}
+
+.link {
+    display: inline-block;
+    margin-top: 10px;
+    color: var(--color-primario-hover);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+/**img*/
+.icono-robot {
+    width: 40px;
+    height: 40px;
+    vertical-align: middle;
+    margin-right: 8px;
+}
+/* MODAL */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal.activo {
+    display: block;
+}
+
+.contenido-modal {
+    background-color: white;
+    max-width: 350px;
+    width: 90%;
+    margin: 150px auto;
+    padding: 25px;
+    border-radius: 20px;
+    text-align: center;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 15px;
+    }
+    .contenedor_datos_personales,
+    .contenedor_salud_finanzas,
+    .resultados {
+        padding: 20px;
+    }
+}

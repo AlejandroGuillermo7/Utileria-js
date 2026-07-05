@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividad 2 - libreria js</title>
+    <link rel="stylesheet" href="css/styles.css">
+    
+    <link rel="icon" type="image/png" href="img/favicon.png">
+</head>
+<body>
+    <div class="contenedor">
+        <h1>Formulario</h1>
+        <p>Ingresa de forma correcta tus datos</p>
+        <form>
+        <div class="contenedor_datos_personales">
+        <img src="img/candado.png" alt="candado" width="100" height="100" style="display: block; margin: 0 auto;">
+            <h2>Datos Personales</h2>
+                <label>Nombre Completo: </label>
+                <input type="text" name="name" id="name">
+                <span class="error" id="errorNombre"></span>
+
+                <label>Fecha de nacimiento: </label>
+                <input type="date" class="fecha" id="fecha">
+                <span class="error" id="errorFecha"></span>
+
+                <label>Telefono: +52 </label>
+                <input type="text" name="telefono" id="telefono">
+                <span class="error" id="errorTelefono"></span>
+        </div>
+        <br>
+        <div class="contenedor_salud_finanzas">
+            <h2>Salud y finanzas</h2>
+            <img src="img/dinero.png" alt="Dinero" width="100px" height="100px" style="display: block; margin: 0 auto;">
+                <label>Ingreso total: </label>
+                <input type="number" name="dinero" id="dinero">
+
+                <h3>Calculadora de IMC</h3>
+                <label>Altura (Ejemplo: 1.78): </label>
+                <input type="number" step="0.01" name="altura" id="altura" placeholder="Ejemplo: 1.70">
+                <label>Peso (kg): </label>
+                <input type="number" name="peso" id="peso">
+        </div>
+        <br>
+        <button type="button" id="botonValidar" class="boton_enviar">Verificar</button>
+
+        <div class="resultados">
+            <img src="img/robot.png" alt="Dinero" width="100px" height="100px" style="display: block; margin: 0 auto;">
+            <h3>Resultados</h3>
+            <label>Índice de Masa Corporal (IMC): </label>
+            <input type="number" id="imc" readonly>
+            <label>Categoría: </label>
+            <input type="text" id="categoriaImc" readonly>
+
+            <h3>Calculo de Presupuesto </h3>
+            <label>El 50% (NECESIDADES): </label>
+            <input type="number" id="necesidad" readonly>
+            <label>El 30% (GUSTOS): </label>
+            <input type="number" id="gustos" readonly>
+            <label>El 20% (AHORRO): </label>
+            <input type="number" id="ahorro" readonly>
+
+            <div class="boton_enviar">
+                <a href="login.html" class="link-primary">Ir al Log In</a>
+            </div>
+        </div>
+        </form>
+    </div>
+     
+
+    <div class="modal" id="modalFondo">
+        <div class="contenido-modal">
+            <h2>Datos validados correctamente</h2>
+            <br>
+            <p id="mensajeEdad"></p>
+            <p id="mensajeMayorEdad"></p>
+            <br>
+            <button type="button" id="cerrarModal" class="boton_enviar">Aceptar</button>
+        </div>
+    </div>
+<script src="js/utileria.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
